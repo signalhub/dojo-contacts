@@ -1,0 +1,14 @@
+{
+  "items": [
+    {"id":0,"firstName":"Петр","email":"1email@mail.com","phone":"22-23", "edit":"редактироавть", "remove":"удалить"},
+    {"id":1,"firstName":"Василий","email":"2email@mail.com","phone":"33-22", "edit":"редактироавть", "remove":"удалить"},
+    {"id":2,"firstName":"Сергей","email":"3email@mail.com","phone":"33-44", "edit":"редактироавть", "remove":"удалить"},
+    {"id":3,"firstName":"Николай","email":"4email@mail.com","phone":"44-22", "edit":"редактироавть", "remove":"удалить"},
+    {"id":4,"firstName":"Нидворай","email":"5email@mail.com","phone":"55-77", "edit":"редактироавть", "remove":"удалить"},
+    {"id":5,"firstName":"Нитравай","email":"6email@mail.com","phone":"99-00", "edit":"редактироавть", "remove":"удалить"},
+    {"id":6,"firstName":"Нидровай","email":"7email@mail.com","phone":"77-77", "edit":"редактироавть", "remove":"удалить"},
+    {"id":6,"firstName":"Джонатон","email":"8email@mail.com","phone":"77-77", "edit":"редактироавть", "remove":"удалить"},
+    {"id":6,"firstName":"Николас","email":"9email@mail.com","phone":"77-77", "edit":"редактироавть", "remove":"удалить"},
+    {"id":6,"firstName":"Духлес","email":"10email@mail.com","phone":"88-77", "edit":"редактироавть", "remove":"удалить"}
+  ]
+}

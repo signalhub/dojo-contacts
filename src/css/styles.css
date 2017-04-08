@@ -1,0 +1,119 @@
+body * {
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+table th {
+    font-size: 12px;
+}
+
+#app {
+    position: absolute;
+    height: 99%;
+    display: flex;
+    width: 100%;
+    padding-right: .5rem;
+}
+
+.loader {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    margin: 20% 0;
+}
+
+.loader.hide {
+    display: none;
+}
+
+.main-title {
+    text-transform: uppercase;
+}
+
+.info-pane {
+    min-width: 300px;
+}
+
+.info-pane >div {
+    padding: .5rem;
+}
+
+.info-pane span:first-child {
+    font-size: 12px;
+    color: #5d87af;
+    line-height: 2rem;
+    text-transform: uppercase;
+    margin-right: .3rem;
+}
+
+.info-pane .dijitTextBox {
+    width: 70%;
+    padding: 0.3rem 0.5rem;
+    float: right;
+}
+
+.i-show {
+    background: url("../images/icon_new.gif") no-repeat center;
+    background-size: contain;
+    height: 20px;
+    display: block;
+}
+
+.i-remove {
+    background: url("../images/DeleteFavorite.gif") no-repeat center;
+    background-size: contain;
+    height: 20px;
+    display: block;
+}
+
+.i-add {
+    float: right;
+    font-size: 12px;
+}
+
+@media only screen and (max-device-width: 480px) {
+    body * {
+        font-size: 1.8rem;
+    }
+}
+
+.loader >div {
+    display: inline-block;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.loader span {
+    display: inline-block;
+    background: cadetblue;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    opacity: .7;
+}
+
+/* animate loader */
+
+.loader span:nth-child(1) {
+    animation: scale .7s .1s infinite linear;
+}
+
+.loader span:nth-child(2) {
+    animation: scale .7s .2s infinite linear;
+}
+
+.loader span:nth-child(3) {
+    animation: scale .7s .3s infinite linear;
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(0,0);
+    }
+    50% {
+        transform: scale(1,1);
+    }
+    100% {
+        transform: scale(0,0);
+    }
+}
